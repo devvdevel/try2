@@ -1,0 +1,378 @@
+
+body, h1, h2, p, ul, li {
+    margin: 0;
+    padding: 0;
+}
+
+/* Style the header */
+header {
+    /* none */
+}
+
+/* Style the navigation bar */
+nav {
+    background-color: #fff;
+    color: #fff;
+	font-size: 18px;
+    text-align: center;
+	padding: 40px;
+	font-weight: 700;
+}
+ /*
+@media (max-width: 952px) {
+    .logoinnav {
+        font-size: 25px;
+        
+    }
+    nav ul li a {
+        font-size: 14px;
+        padding: 50px;
+        width: 40px;
+        line-height: 40px;
+    }
+    .hamburger-menu {
+        position: absolute;
+        left: 150px;
+    }
+    .hamburger-menu:hover {
+        text-align: right;
+    }
+}
+*/
+
+
+
+
+.logoinnav {
+    position: absolute;
+    bottom: 845px;
+    left: 80px;
+	width: 120px;
+    height: 120px;
+}
+
+
+
+nav ul {
+    list-style-type: none;
+}
+
+nav ul li {
+    display: inline;
+    margin: 20px;
+}
+
+nav ul li a {
+    text-decoration: none;
+	font-family: "Arial", sans-serif;
+    color: #fff;
+}
+
+.companynameinnav {
+	background: linear-gradient(to right, #6caec4, #850f85);
+    -webkit-background-clip: text;
+    background-clip: text; 
+    color: transparent;
+	font-size: 50px;
+	position: absolute;
+    top: 20px;
+    left: 190px;
+}
+
+.homehover {
+    color: black;
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.homehover:hover {
+    background-color: #6caec4;
+}
+
+.menuhover {
+    color: black;
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.menuhover:hover {
+    background-color: #6caec4;
+}
+
+.abouthover {
+    color: black;
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.abouthover:hover {
+    background-color: #6caec4;
+}
+
+.contacthover {
+    color: black;
+    background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.contacthover:hover {
+    background-color: #6caec4;
+}
+
+.hamburger-menu {
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    width: 30px;
+    height: 20px;
+    justify-content: space-between;
+    padding: 5px;
+	position: absolute;
+    top: 35px;
+    right: 120px;
+	
+	background-color: transparent; 
+    transition: background-color 0.5s; 
+	padding: 10px;
+}
+
+.bar {
+    width: 100%;
+    height: 4px;
+    background-color: black;
+}
+
+.hamburger-menu:hover {
+    background-color: #6caec4;
+}
+/* Style the navigation bar */
+
+
+
+
+
+
+/* Style the main content area */
+main {
+    padding: 370px;
+	color: #fff;
+	background-image: url(../img/bgforstridely.jpg);
+	background-size: cover;
+	background-position: 0px 800px;
+    
+	font-family: "Arial", sans-serif;
+}
+
+.h1content {
+	color: #6caec4;
+	text-shadow: 10px 10px 11px rgba(0, 0, 0, 0.5);
+	font-size: 150px;
+	position: absolute;
+    top: 480px;
+    right: 120px;
+	font-weight: 700;
+}
+
+.pcontent {
+	position: absolute;
+    top: 670px;
+    right: 120px;
+	text-shadow: 50px 50px 51px rgba(0, 0, 0, 0.7);
+	font-size: 50px;
+	color: rgb(83, 80, 80);
+	font-weight: 700;
+}
+
+
+
+/* the home content */
+
+#homecontent {
+    padding: 100px;
+}
+
+/*
+#h1welcome {
+    background-color: #6caec4;
+    color: rgb(83, 80, 80);
+    position: relative;
+	text-align: center;
+	font-size: 50px;
+    padding: 30px;
+    
+}
+*/
+#welcoming {
+    position: absolute;
+    top: 890px;
+    left: 100px;
+}
+
+#h1welcoming {
+    color: #6caec4;
+    font-size: 50px;
+}
+
+#pwelcoming {
+    font-size: 20px;
+    max-width: 800px;
+    line-height: 40px;
+}
+
+
+
+
+
+
+
+
+
+
+/* the home content */
+
+
+/* FULL SUBSCRIBE STYLE */
+#newsletter {
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+
+#h2subs {
+    margin-left: 100px;
+    padding: 5px;
+    position: absolute;
+    top: 960px;
+    right: 115px;
+}
+
+#newsletter form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#newsletter input {
+    padding: 10px;
+    flex-grow: 2;
+    border: 2px solid #000000;
+    position: absolute;
+    top: 1000px;
+    right: 198px;
+    width: 188px;
+}
+
+#newsletter button {
+    background-color: #6caec4;
+    color: black; /* Initial font color */
+    padding: 12px;
+    border: none;
+    cursor: pointer;
+    transition: color 0.3s; /* Smooth transition for hover effect */
+    position: absolute;
+    top: 1000px;
+    right: 115px;
+}
+
+
+
+
+/* button hover changing color */
+/*
+.btn-hover {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
+    color: black;
+    cursor: pointer;
+    margin-right: 2160px;
+    text-align:center;
+    border: none;
+    background-size: 300% 100%;
+
+    border-radius: 50px;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:hover {
+    background-position: 100% 0;
+    moz-transition: all .4s ease-in-out;
+    -o-transition: all .4s ease-in-out;
+    -webkit-transition: all .4s ease-in-out;
+    transition: all .4s ease-in-out;
+}
+
+.btn-hover:focus {
+    outline: none;
+}
+
+.btn-hover.color-4 {
+    background-image: linear-gradient(to right, #6caec4, #851186, #851186, #6caec4);
+    /* box-shadow: 0 4px 15px 0 rgba(252, 104, 110, 0.75); 
+} 
+/* button hover changing color */
+
+
+#confirmationMessage {
+    position: absolute;
+    top: 1050px;
+    right: 115px;
+    color: #6caec4;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    background-color: rgba(0,0,0,0.4);
+}
+
+.modal-content {
+    background-color: #cfcbcb;
+    margin: 15% auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 30%;
+    text-align: center;
+}
+
+#confirmationText {
+    margin-bottom: 20px;
+}
+
+#confirmButton, #cancelButton {
+    background-color: #6caec4;
+    color: black;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+    margin: 5px;
+}
+
+#confirmButton:hover, #cancelButton:hover {
+    background-color: #6caec4;
+}
+/* FULL SUBSCRIBE STYLE */
+
+
+/* Style the footer */
+footer {
+    background-color: #6caec4;
+    color: rgb(83, 80, 80);
+    text-align: center;
+    padding: 60px;
+	font-size: 15px;
+}
